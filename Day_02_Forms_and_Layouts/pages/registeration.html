@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <form>
+        <table>
+            <caption>
+                <h1>Registration Form</h1>
+            </caption>
+            <tr>
+                <td><label for="first_name">First Name</label></td>
+                <td><input type="text" id="first_name" name=" first_name" placeholder="Enter your first name"></td>
+            </tr>
+
+            <tr>
+                <td><label for="last_name">Last Name</label></td>
+                <td><input type="text" id="last_name" name=" last_name" placeholder="Enter your last name"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Enter your email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" id="password" name="password" placeholder="Enter your password"></td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td> <label for="countries">Select a Country...</label></td>
+                <td>
+                    <select id="countries" name="country">
+                        <option value="">Select a Country...</option>
+                        <optgroup label="Africa">
+                            <option value="egypt">Egypt</option>
+                            <option value="nigeria">Tunisia</option>
+                            <option value="south-africa">South Africa</option>
+                            <option value="morocco">Morocco</option>
+                            <option value="kenya">Ghana</option>
+                        </optgroup>
+
+                        <optgroup label="Europe" disabled>
+                            <option value="belgium">Belgium</option>
+                            <option value="italy">Italy</option>
+                            <option value="united-kingdom">United Kingdom</option>
+                            <option value="spain">Spain</option>
+                        </optgroup>
+
+                        <optgroup label="Asia">
+                            <option value="qatar">Qatar</option>
+                            <option value="saudi-arabia">Saudi Arabia</option>
+                            <option value="japan">Japan</option>
+                            <option value="Palestine">Palestine</option>
+                            <option value="Russia">Russia</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td> <label for="birthday">Birthday</label></td>
+                <td><input type="date" id="birthday" name="birthday"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <p>Interests</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <table id="interests-table">
+                        <tr>
+                            <td><label><input type="checkbox" name="interest" value="sports"> Sports</label></td>
+                            <td><label><input type="checkbox" name="interest" value="music"> Music</label></td>
+                            <td><label><input type="checkbox" name="interest" value="fashion"> Fashion</label></td>
+                        </tr>
+                        <tr>
+                            <td><label><input type="checkbox" name="interest" value="reading"> Reading</label></td>
+                            <td><label><input type="checkbox" name="interest" value="shopping"> Shopping</label></td>
+                            <td><label><input type="checkbox" name="interest" value="movies"> Movies</label></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <p>Bio</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <textarea id="bio" name="bio" rows="10" cols="50"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" id="form-buttons">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+div.centered-img {
+    text-align: center;
+}
+
+h1,
+span {
+    text-decoration: underline;
+}
+
+.next-link {
+    text-align: start;
+}
+
+.red-text {
+    color: red;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,
+th,
+td {
+    border: 5px solid #D6D6D6;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+input {
+    padding: 10px;
+}
+
+#interests-table,
+#interests-table th,
+#interests-table td {
+    border: none;
+}
+
+tr td p {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+textarea {
+    resize: none;
+}
+
+#form-buttons {
+    text-align: center;
+}
+
+#form-buttons input {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+fieldset {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border: 2px solid #D6D6D6;
+    padding: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+fieldset legend,
+fieldset label {
+    font-weight: bold;
+}
+
+fieldset legend {
+    color: red;
+    font-size: 18pt;
+}
+
+fieldset label {
+    color: #5A0303;
+    font-size: 14pt;
+}
+
+#form-buttons input[type="submit"]{
+    color: #5A0303;
+}
+
+tr #form-buttons input[type="submit"]{
+    color: black;
+}

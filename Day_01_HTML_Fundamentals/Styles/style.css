@@ -1,0 +1,19 @@
+h1, h2, h3 {
+    text-align: center;
+}
+
+div.centered-img {
+    text-align: center;
+}
+
+h1,span{
+    text-decoration: underline;
+}
+
+.next-link{
+    text-align: start;
+}
+
+.red-text {
+    color: red;
+}
