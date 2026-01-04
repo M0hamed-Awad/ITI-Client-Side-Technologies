@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts/script.js"></script>
+    <title>JS - Task 5</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Memory Game</h1>
+    <!-- Center the game Board -->
+    <div id="memory-game" style="width: 440px; margin: auto;">
+        <!-- Do it in Grid Format, 4 Images in the Row -->
+        <img src="../images/Moon.gif" alt="Memory Image 1" width="100" height="100" onclick="replaceImage(this, 0, 0)">
+        <img src="../images/Moon.gif" alt="Memory Image 2" width="100" height="100" onclick="replaceImage(this, 0, 1)">
+        <img src="../images/Moon.gif" alt="Memory Image 3" width="100" height="100" onclick="replaceImage(this, 0, 2)">
+        <img src="../images/Moon.gif" alt="Memory Image 4" width="100" height="100" onclick="replaceImage(this, 0, 3)">
+        <br>
+        <img src="../images/Moon.gif" alt="Memory Image 5" width="100" height="100" onclick="replaceImage(this, 1, 0)">
+        <img src="../images/Moon.gif" alt="Memory Image 6" width="100" height="100" onclick="replaceImage(this, 1, 1)">
+        <img src="../images/Moon.gif" alt="Memory Image 7" width="100" height="100" onclick="replaceImage(this, 1, 2)">
+        <img src="../images/Moon.gif" alt="Memory Image 8" width="100" height="100" onclick="replaceImage(this, 1, 3)">
+        <br>
+        <img src="../images/Moon.gif" alt="Memory Image 9" width="100" height="100" onclick="replaceImage(this, 2, 0)">
+        <img src="../images/Moon.gif" alt="Memory Image 10" width="100" height="100" onclick="replaceImage(this, 2, 1)">
+        <img src="../images/Moon.gif" alt="Memory Image 11" width="100" height="100" onclick="replaceImage(this, 2, 2)">
+        <img src="../images/Moon.gif" alt="Memory Image 12" width="100" height="100" onclick="replaceImage(this, 2, 3)">
+    </div>
+
+    <div style="text-align: center; margin-top: 20px;">
+        <button onclick="restartGame()">Restart Game</button>
+    </div>
+</body>
+
+</html>
