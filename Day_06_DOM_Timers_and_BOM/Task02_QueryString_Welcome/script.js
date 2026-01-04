@@ -73,6 +73,7 @@ function displayUserInfo() {
 // Get Browser Type
 function getBrowserType() {
     return navigator.userAgent;
+    // Something Like: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0'
 }
 
 // Check if the Browser is Chrome or Not
