@@ -1,5 +1,6 @@
 // (3).
-// Using ternery operator, write a script that accepts 2 numbers from the user and display the maximum value of the entered data.
+// Using ternary operator, write a script that accepts 2 numbers from the user and display the 
+// maximum value of the entered data.
 
 function getMax(firstNumber, secondNumber) {
     let max = (firstNumber > secondNumber) ? firstNumber : secondNumber;

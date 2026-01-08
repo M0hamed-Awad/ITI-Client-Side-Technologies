@@ -6,7 +6,9 @@
 
 // Display Key Value Function
 function dispVal(dummyObj, key) {
-    return dummyObj[key];
+    return dummyObj.hasOwnProperty(key) ?
+        dummyObj[key] :
+        "The Object doesn't have a property with this name [" + key + "].";
 }
 
 // Example Address Object
@@ -18,5 +20,6 @@ let dummyObj = {
 // Main Flow
 console.log(
     "Welcome " + dispVal(dummyObj, "name") + "!\n" +
-    "You are " + dispVal(dummyObj, "age") + " years old."
+    "You are " + dispVal(dummyObj, "age") + " years old.\n" +
+    dispVal(dummyObj, "aaaaaage")
 );
