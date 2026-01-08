@@ -14,8 +14,6 @@ let displayArea;
 let charactersIterator = 0;
 let wordsIterator = 0;
 
-
-
 // Open Child Window
 function openChildWindow() {
     childWindow = open("child.html", "ChildWindow", "width=" + childWindowSize + ",height=" + childWindowSize);

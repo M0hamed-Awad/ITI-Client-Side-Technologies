@@ -24,7 +24,6 @@ function fun() {
 
 function wait5sec() {
     const currentTime = Date.now();
-
     do { } while (Date.now() < currentTime + 5000);
-    console.log("5 seconds are up!");
+    console.log("5 seconds later ...");
 }
