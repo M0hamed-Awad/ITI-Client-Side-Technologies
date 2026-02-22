@@ -1,7 +1,7 @@
 # 🌐 Client-Side Technologies (CST) | ITI Intake 46
 
 [![Tech](https://img.shields.io/badge/Tech-HTML5--CSS3--JS-yellow.svg)]()
-[![Course](https://img.shields.io/badge/Course-ITI_Intake_45-orange.svg)]()
+[![Organization](https://img.shields.io/badge/Organization-ITI_Intake_46-orange.svg)]()
 [![Status](https://img.shields.io/badge/Status-Completed-success.svg)]()
 
 This repository contains the complete laboratory work for the **Client-Side Technologies** track at ITI. The journey started with building semantic, responsive layouts and culminated in architecting complex, event-driven JavaScript systems and custom libraries.
